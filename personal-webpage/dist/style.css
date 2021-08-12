@@ -2,6 +2,8 @@
 
 body {
   font-family: "Raleway", sans-serif !important;
+
+
 }
 
 ul {
@@ -13,7 +15,7 @@ a {
 }
 
 h1 {
-  color: #ff6363;
+  color: #0C5773;
   font-weight: bold;
 }
 
@@ -89,7 +91,7 @@ p {
 
 .fa-bars {
   display: none !important;
-  color: #ff6363;
+  color: #FFC600;
   float: right;
   padding: 20px;
   position: fixed;
@@ -210,7 +212,7 @@ p {
 }
 
 .aboutme {
-  background: url("https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg")
+  background: url("background.jpg")
     no-repeat;
   background-size: cover;
 }
@@ -224,7 +226,7 @@ p {
 /* bouncing arrow */
 
 .fa-chevron-down {
-  color: #ff6363 !important;
+  color: #FFC600 !important;
   bottom: 10px;
   margin-left: -30px;
   cursor: pointer;
@@ -318,12 +320,12 @@ p {
 }
 
 .fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent #ff6363 !important;
+  border-color: transparent transparent transparent #FFC600 !important;
   right: 45px !important;
 }
 
 .fp-controlArrow.fp-prev {
-  border-color: transparent #ff6363 transparent transparent !important;
+  border-color: transparent #FFC600 transparent transparent !important;
   left: 45px !important;
 }
 
@@ -388,7 +390,7 @@ p {
   height: 3em;
   font-size: 16px;
   padding: 1em;
-  margin: 0.5em 0 0;
+  margin: 0.5em 0 2em 0;
   font-weight: bold;
 }
 
@@ -410,10 +412,10 @@ label {
   padding: 12px;
   min-width: 200px;
   border-radius: 2px;
-  border: 2px solid #ff6363;
+  border: 2px solid #FFC600;
   text-align: center;
   font-size: 1em;
-  color: #ff6363;
+  color: #FFC600;
   background-color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -421,7 +423,7 @@ label {
 }
 
 #submit:hover {
-  background-color: #ff6363;
+  background-color: #FFC600;
   color: white;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -429,17 +431,21 @@ label {
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+.center_button{
+   text-align: center;
+}
 
 #detail {
   outline: none;
   margin-top: 0px;
   padding: 12px;
+   text-align: center;
   min-width: 200px;
   border-radius: 2px;
-  border: 2px solid #ff6363;
+  border: 2px solid #FFC600;
   text-align: center;
   font-size: 1em;
-  color: #ff6363;
+  color:#FFC600;
   background-color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -447,7 +453,7 @@ label {
 }
 
 #detail:hover {
-  background-color: #ff6363;
+  background-color: #FFC600;
   color: white;
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -734,3 +740,57 @@ html, body {
   margin: 0;
 }
 
+.container {
+  margin-top: 10px;
+ background-color: #ffffff;
+ display: flex;
+ width: 50%;
+ height: 40px;
+ position: relative;
+ border-radius: 6px;
+ transition: 0.3s ease-in-out;
+}
+
+.left-side>h3{
+  text-align: center;
+  color:#FFFFFF;
+  font-size: 15px;
+  margin-bottom:17px;
+  font-weight: bold;
+
+}
+
+.left-side {
+ background-color: #FFC600;
+ width: 110px;
+ height: 40px;
+ border-radius: 4px;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ transition: 0.3s;
+ flex-shrink: 0;
+ overflow: hidden;
+   padding: 12px;
+  border-radius: 2px;
+  border: 2px solid #FFC600;
+}
+
+.right-side {
+ width: calc(100%);
+  padding: 12px;
+  border-radius: 2px;
+  border: 2px solid #FFC600;
+ display: flex;
+ align-items: center;
+ overflow: hidden;
+ cursor: pointer;
+ justify-content: space-between;
+ white-space: nowrap;
+ transition: 0.3s;
+ &:hover {
+  background-color: #f9f7f9;
+ }
+}
