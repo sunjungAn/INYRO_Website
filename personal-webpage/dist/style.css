@@ -129,7 +129,7 @@ p {
 }
 
 .header-links a:hover {
-  color: #ff6363 !important;
+  color: #FFC600 !important;
 }
 
 /* slide out nav menu styles */
@@ -162,7 +162,7 @@ p {
 }
 
 .nav-links a:hover {
-  color: #ff6363;
+  color: #FFC600;
   -webkit-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   -ms-transition: all 0.6s ease-in-out;
@@ -794,3 +794,10 @@ html, body {
   background-color: #f9f7f9;
  }
 }
+
+.container:hover {
+  transform: translateY(-0.5rem) scale(1.0125);
+
+  box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+

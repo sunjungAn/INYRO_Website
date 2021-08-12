@@ -16,6 +16,7 @@ $(document).ready(function () {
   // input text for typing animation
   $("#holder").writeText("IT/Programming Central Club");
 
+
   // initialize wow.js
   new WOW().init();
 
@@ -253,4 +254,8 @@ function lazyLoad() {
         });
     });
   });
+
 });
+
+
+
