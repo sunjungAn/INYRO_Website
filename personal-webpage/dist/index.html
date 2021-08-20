@@ -23,11 +23,11 @@
     <i class="fa fa-bars fa-3x"></i>
     <div class="header-links">
       <ul>
-        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-        <li data-menuanchor="fourthPage"><a href="#contact">DIRECTIONS</a></li>
-        <li data-menuanchor="thirdPage"><a href="#portfolio">ACTIVITIES</a></li>
-        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-        <li data-menuanchor="fourthPage"><a href="#contact">BOARD</a></li>
+        <li data-menuanchor="fifthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="fourthPage"><a href="#directions">DIRECTIONS</a></li>
+        <li data-menuanchor="thirdPage"><a href="#notice">NOTICE</a></li>
+        <li data-menuanchor="secondPage"><a href="#activities">ACTIVITIES</a></li>
+        <li data-menuanchor="firstPage"><a href="#about">ABOUT</a></li>
       </ul>
     </div>
   </div>
@@ -39,12 +39,11 @@
     <div class="nav-container">
       <div class="nav-links">
         <ul id='myMenu'>
-          <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-          <li data-menuanchor="fourthPage"><a href="#contact">DIRECTIONS</a></li>
-          <li data-menuanchor="thirdPage"><a href="#portfolio">ACTIVITIES</a></li>
-          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-          <li data-menuanchor="fourthPage"><a href="#contact">BOARD</a></li>
-
+          <li data-menuanchor="fifthPage"><a href="#contact">CONTACT</a></li>
+          <li data-menuanchor="fourthPage"><a href="#directions">DIRECTIONS</a></li>
+          <li data-menuanchor="thirdPage"><a href="#notice">NOTICE</a></li>
+          <li data-menuanchor="secondPage"><a href="#activities">ACTIVITIES</a></li>
+          <li data-menuanchor="firstPage"><a href="#about">ABOUT</a></li> 
         </ul>
       </div>
     </div>
@@ -68,7 +67,7 @@
 
     <!-- begin section -->
 
-    <div class="section" data-anchor="skills">
+    <div class="section" data-anchor="about">
       <div class="content">
         <br>
         <br>
@@ -128,7 +127,7 @@
 
     <!-- begin section -->
 
-    <div class="section" data-anchor="projects">
+    <div class="section" data-anchor="activities">
         
       <div class="content-slide">
         <div class="slide">
@@ -185,7 +184,7 @@
     
     <!-- end section -->
 
-    <div class="section" data-anchor="BOARD">
+    <div class="section" data-anchor="notice">
       <div class="notice" data-wow-delay="0.2s">
           <br>
           <h1 class="wow fadeInDown" data-wow-delay="0.2s">Notice</h1>
@@ -243,46 +242,57 @@
       </div>
     </div>
 
-    
+    <div class="section" data-anchor="directions">
+      <div class = "content">
+        <h1>DIRECTION</h1>
+        <p>I'll show you the exact way to Sangmyung University.</p>
+        <br>
+        <div class = "map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.9142509837843!2d126.95350421531285!3d37.60417707979099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbd550c4055cf%3A0x347b9eeb3d8beae6!2z7ISc7Jq47Yq567OE7IucIOyiheuhnOq1rCDtj4nssL3rj5kg7ZmN7KeA66y4Muq4uCAyMA!5e0!3m2!1sko!2skr!4v1625800767463!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <li> 서울시 종로구 홍지문 2길 20 (우 : 03016)</li>
+        </div>
+        <br>
+         <div class="direction-control">
+           <ul>
+              <li>
+                서울역 <span>→ 상명대학교</span>
+                <br>
+                <a>서울역버스환승센터에서 버스 탑승</a></li>
+           </ul>
+        </div>     
+            
+        <div class="direction-control">
+         <ul>
+            <li>
+              강남고속버스터미널 <span>→ 상명대학교</span>
+              <br>
+              <a>지하철 3호선(대화, 구파발) 탑승 경복궁역 하차 후 3번 출구에서 버스 탑승</a></li>
+         </ul>
+        </div>     
 
+        <div class="direction-control">
+          <ul>
+            <li>
+              김포공항 <span>→ 상명대학교</span>
+              <br>
+              <a>지하철 5호선(마천, 상일) 탑승 광화문역 하차 후 2번 출구 KT광화문지사에서 버스 탑승  </a></li>
+         </ul>
+       </div>     
+      </div>
+    </div>
+    <br>
 
     <!-- begin section -->
 
     <div class="section" data-anchor="contact">
       <div class="content wow fadeInDown" data-wow-delay="0.2s">
-        <h1>CONTACT ME</h1>
+        <h1>CONTACT US</h1>
         <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
         <br>
-        <div class="contact-form">
-
-          <div id="form-messages"></div>
-          <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
-            <div class="form-group has-feedback wow fadeInLeft" >
-              <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
-            </div>
-
-            <div class="form-group has-feedback wow fadeInRight" >
-              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
-            </div>
-
-            <div class="form-group has-feedback wow fadeInLeft" >
-              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
-            </div>
-
-            <div class="hidden">
-              <input type="text" class="form-control" id="human" name="human" placeholder="">
-            </div>
-            <div class="wow fadeInUp" >
-              <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
-            </div>
-          </form>
-          <br>
+         <div class="social-links">
+          <span><a href="https://www.instagram.com/smu_inyro/" target="_blank"><img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008788/noticon/bqjhb6xvljt9viccy6lh.png" width = "5%"></span>
+          <span><a target="_blank" href="https://www.notion.so/Study-edbaf9a35691422a8bc8721b6b086d86" target="_blank"><img src = "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1570106347/noticon/hx52ypkqqdzjdvd8iaid.svg" width="5%"></a></span>
+          <span><a target="_blank" href="mailto:201910976@sangmyung.kr?Subject=Hello%20again" target="_top" target="_blank"><img src = "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1602173128/noticon/sjqe4oye5gwu2qyivtw9.png" width="5%"></a></span>
         </div>
       </div>
     </div>
@@ -292,13 +302,10 @@
 
     <div class="section fp-auto-height">
       <div class="footer">
-        <p>CONNECT WITH ME</p>
-        <div class="social-links">
-          <span><a href="https://www.linkedin.com/in/bradleyengelhardt" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
-          <span><a target="_blank" href="https://twitter.com/bradengelhardt" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
-          <span><a href="https://github.com/SquishyAndroid" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
-          <span><a href="https://codepen.io/SquishyAndroid/pens/public/"><i class="fa fa-codepen fa-2x"></i></a></span>
-        </div>
+        <p>INYRO/Sangmyung Univ.</p>
+        <a>Sangmyung Univ: www.smu.ac.kr</a>
+
+
       </div>
     </div>
     <!-- end section -->
@@ -307,7 +314,7 @@
   <!-- end fullpage -->
 </body>
 <!-- partial -->
-  <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js'></script><script  src="./script.js"></script>

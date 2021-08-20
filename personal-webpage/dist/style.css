@@ -801,3 +801,36 @@ html, body {
   box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
 }
 
+.direction-form {
+  padding: 0px 15px 0px 15px;
+}
+
+
+.direction-control { 
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  border: 2px solid rgba(0, 0, 0, 0.27);
+  font-size: 16px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 7px;
+  font-weight: bold;
+}
+
+
+.direction-control>ul{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.direction-control>ul>li>a{
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer>a{
+  color:white;
+}
